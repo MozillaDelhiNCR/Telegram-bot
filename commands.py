@@ -21,7 +21,6 @@ def invitelink(bot, update):
 
 def github(bot, update):
     bot.action(update, ChatAction.TYPING)
-    print(update)
     sleep(0.2)
     bot.reply(update, text="[https://github.com/MozillaDelhiOpenCommunity](https://github.com/MozillaDelhiOpenCommunity)",
               parse_mode=telegram.ParseMode.MARKDOWN)
@@ -42,7 +41,6 @@ def facebook(bot, update):
 
 
 def youtube(bot, update):
-    print(update)
     bot.action(update, ChatAction.TYPING)
     sleep(0.2)
     bot.reply(update, text="[https://www.youtube.com/channel/UCJoFnsWVHmuppJJBq3b65Eg](https://www.youtube.com/channel/UCJoFnsWVHmuppJJBq3b65Eg)",
